@@ -1,0 +1,4 @@
+---
+#configure nginx
+- name: configure nginx
+  copy: src=index.html dest=/var/www/html/index.html

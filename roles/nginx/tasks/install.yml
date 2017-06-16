@@ -1,0 +1,7 @@
+---
+# Install nginx 
+- name: install nginx
+  sudo: yes
+  apt:
+    update_cache: yes 
+  apt: name=nginx state=latest

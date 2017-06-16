@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  #Playbook to install nginx 
+  name: install nignx
+  roles:
+    - nginx
+  
